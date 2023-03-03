@@ -441,7 +441,8 @@ menu:hover {
 	width: 20px;
 	height: 20px;
 }
-.icons-socials:hover {
+.icons-socials:hover,
+.icons-socials:focus {
 	fill: var(--background-color);
 }
 
@@ -465,12 +466,14 @@ menu:hover {
 	color: var(--icon-color);
 }
 
-.ul-icons-socials > li > a:hover {
+.ul-icons-socials > li > a:hover,
+.ul-icons-socials > li > a:focus {
 	background-color: var(--accent-color);
 	color: var(--background-color);
 }
 /* dla stopki inny kwas */
-.footer-div-2 .ul-icons-socials > li > a:hover {
+.footer-div-2 .ul-icons-socials > li > a:hover,
+.footer-div-2 .ul-icons-socials > li > a:focus {
 	background-color: var(--accent-color);
 }
 
@@ -478,7 +481,8 @@ menu:hover {
 	background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-div-2 .ul-icons-socials > li > a:hover {
+.footer-div-2 .ul-icons-socials > li > a:hover,
+.footer-div-2 .ul-icons-socials > li > a:focus {
 	background-color: var(--accent-color);
 }
 
@@ -496,7 +500,8 @@ menu:hover {
 .ul-clients > li {
 }
 
-.ul-clients > li:hover {
+.ul-clients > li:hover,
+.ul-clients > li:focus {
 	color: var(--accent-color);
 }
 
