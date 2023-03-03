@@ -13,9 +13,11 @@ font-family: 'Roboto', sans-serif; test*/
 	--background-footer-color: #2f303a;
 	--background-section: #e5e5e5;
 	--line-color: #ececec;
-	--backround-color: #fff;
+	--background-color: #fff;
 	--icon-color: #afb1b8;
 	--main-font: "Roboto", sans-serif;
+	--icon-socials-color: var(--icon-color);
+	--icon-socials-background: var(--backround-color);
 }
 
 body {
@@ -433,10 +435,8 @@ menu:hover {
 }
 
 .icons-socials {
-	width: 20px;
-	height: 20px;
-	margin: 12px;
-	fill: currentColor;
+	width: 44px;
+	height: 44px;
 }
 
 .ul-icons-socials > li {
@@ -445,10 +445,13 @@ menu:hover {
 }
 
 .ul-icons-socials > li > a {
-	color: #afb1b8;
+	--icon-socials-color: var(--icon-color);
+	--icon-socials-backgrond: var(--icon-socials-background);
 }
+
 .ul-icons-socials > li > a:hover {
-	color: var(--accent-color);
+	--icon-socials-color: #fff;
+	--icon-socials-background: var(--accent-color);
 }
 
 .icons-clients {
@@ -509,7 +512,6 @@ menu:hover {
 	color: rgba(255, 255, 255, 0.1);
 }
 .ul-icons-socials-footer > li > a:hover {
-	color: var(--accent-color);
 }
 
 .footer-div-2 {
