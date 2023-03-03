@@ -267,6 +267,7 @@ menu:hover {
 	line-height: 2;
 	font-weight: 700;
 	letter-spacing: 0.06em;
+	color: var(--main-text-color);
 }
 .image_description {
 	font-size: 16px;
@@ -437,6 +438,8 @@ menu:hover {
 
 .icons-socials {
 	fill: currentColor;
+	width: 20px;
+	height: 20px;
 }
 .icons-socials:hover {
 	fill: var(--background-color);
